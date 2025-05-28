@@ -49,10 +49,10 @@ devDependencies:
     version: 1.6.22(react@17.0.2)
   '@silverhand/eslint-config':
     specifier: ^0.17.0
-    version: 0.17.0(eslint@8.17.0)(prettier@2.7.0)(typescript@5.0.2)
+    version: 0.17.0(eslint@8.17.0)(prettier@3.5.3)(typescript@5.0.2)
   '@silverhand/eslint-config-react':
     specifier: ^0.17.0
-    version: 0.17.0(eslint@8.17.0)(postcss@8.4.14)(prettier@2.7.0)(stylelint@14.9.1)(typescript@5.0.2)
+    version: 0.17.0(eslint@8.17.0)(postcss@8.4.14)(prettier@3.5.3)(stylelint@14.9.1)(typescript@5.0.2)
   '@silverhand/ts-config':
     specifier: ^0.17.0
     version: 0.17.0(typescript@5.0.2)
@@ -96,8 +96,8 @@ devDependencies:
     specifier: ^8.4.14
     version: 8.4.14
   prettier:
-    specifier: ^2.7.0
-    version: 2.7.0
+    specifier: ^3.0.0
+    version: 3.5.3
   prism-react-renderer:
     specifier: ^1.3.3
     version: 1.3.3(react@17.0.2)
@@ -2819,12 +2819,12 @@ packages:
     resolution: {integrity: sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==}
     dev: true
 
-  /@silverhand/eslint-config-react@0.17.0(eslint@8.17.0)(postcss@8.4.14)(prettier@2.7.0)(stylelint@14.9.1)(typescript@5.0.2):
+  /@silverhand/eslint-config-react@0.17.0(eslint@8.17.0)(postcss@8.4.14)(prettier@3.5.3)(stylelint@14.9.1)(typescript@5.0.2):
     resolution: {integrity: sha512-bX3uuaLHY9QJF2VIWSh5RpKYxd1QGeDhYqDoluEx+liNJsLuaNzVf7TgmO1bSazDCvktvijCwUkKHnMN6yAc5Q==}
     peerDependencies:
       stylelint: ^14.8.2
     dependencies:
-      '@silverhand/eslint-config': 0.17.0(eslint@8.17.0)(prettier@2.7.0)(typescript@5.0.2)
+      '@silverhand/eslint-config': 0.17.0(eslint@8.17.0)(prettier@3.5.3)(typescript@5.0.2)
       eslint-config-xo-react: 0.25.0(eslint-plugin-react-hooks@4.5.0)(eslint-plugin-react@7.30.0)(eslint@8.17.0)
       eslint-plugin-react: 7.30.0(eslint@8.17.0)
       eslint-plugin-react-hooks: 4.5.0(eslint@8.17.0)
@@ -2839,7 +2839,7 @@ packages:
       - typescript
     dev: true
 
-  /@silverhand/eslint-config@0.17.0(eslint@8.17.0)(prettier@2.7.0)(typescript@5.0.2):
+  /@silverhand/eslint-config@0.17.0(eslint@8.17.0)(prettier@3.5.3)(typescript@5.0.2):
     resolution: {integrity: sha512-kn4Ddc2y+O3JdBg1KpxJ0vUjJ7PRDGmRtTBEpKy03pvk2hchiN5a1adyZ7totcJFq2wiH1yJQculVBSPfR4xJQ==}
     engines: {node: '>=14.15.0'}
     peerDependencies:
@@ -2859,12 +2859,12 @@ packages:
       eslint-plugin-import: 2.26.0(@typescript-eslint/parser@5.28.0)(eslint-import-resolver-typescript@2.7.1)(eslint@8.17.0)
       eslint-plugin-no-use-extend-native: 0.5.0
       eslint-plugin-node: 11.1.0(eslint@8.17.0)
-      eslint-plugin-prettier: 4.2.1(eslint-config-prettier@8.5.0)(eslint@8.17.0)(prettier@2.7.0)
+      eslint-plugin-prettier: 4.2.1(eslint-config-prettier@8.5.0)(eslint@8.17.0)(prettier@3.5.3)
       eslint-plugin-promise: 6.0.0(eslint@8.17.0)
       eslint-plugin-sql: 2.1.0(eslint@8.17.0)
       eslint-plugin-unicorn: 39.0.0(eslint@8.17.0)
       pkg-dir: 4.2.0
-      prettier: 2.7.0
+      prettier: 3.5.3
     transitivePeerDependencies:
       - eslint-import-resolver-webpack
       - supports-color
@@ -6130,7 +6130,7 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-plugin-prettier@4.2.1(eslint-config-prettier@8.5.0)(eslint@8.17.0)(prettier@2.7.0):
+  /eslint-plugin-prettier@4.2.1(eslint-config-prettier@8.5.0)(eslint@8.17.0)(prettier@3.5.3):
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -6143,7 +6143,7 @@ packages:
     dependencies:
       eslint: 8.17.0
       eslint-config-prettier: 8.5.0(eslint@8.17.0)
-      prettier: 2.7.0
+      prettier: 3.5.3
       prettier-linter-helpers: 1.0.0
     dev: true
 
@@ -10132,9 +10132,9 @@ packages:
       fast-diff: 1.2.0
     dev: true
 
-  /prettier@2.7.0:
-    resolution: {integrity: sha512-nwoX4GMFgxoPC6diHvSwmK/4yU8FFH3V8XWtLQrbj4IBsK2pkYhG4kf/ljF/haaZ/aii+wNJqISrCDPgxGWDVQ==}
-    engines: {node: '>=10.13.0'}
+  /prettier@3.5.3:
+    resolution: {integrity: sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==}
+    engines: {node: '>=14'}
     hasBin: true
     dev: true
 
