@@ -60,8 +60,8 @@ devDependencies:
     specifier: ^0.17.0
     version: 0.17.0(typescript@5.0.2)
   '@tsconfig/docusaurus':
-    specifier: ^1.0.6
-    version: 1.0.6
+    specifier: ^2.0.0
+    version: 2.0.3
   '@types/node':
     specifier: ^18.11.5
     version: 18.11.5
@@ -3080,8 +3080,8 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: true
 
-  /@tsconfig/docusaurus@1.0.6:
-    resolution: {integrity: sha512-1QxDaP54hpzM6bq9E+yFEo4F9WbWHhsDe4vktZXF/iDlc9FqGr9qlg+3X/nuKQXx8QxHV7ue8NXFazzajsxFBA==}
+  /@tsconfig/docusaurus@2.0.3:
+    resolution: {integrity: sha512-3l1L5PzWVa7l0691TjnsZ0yOIEwG9DziSqu5IPZPlI5Dowi7z42cEym8Y35GHbgHvPcBfNxfrbxm7Cncn4nByQ==}
     dev: true
 
   /@tsconfig/node10@1.0.9:
